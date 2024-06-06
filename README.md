@@ -170,4 +170,50 @@ Rewriting branches, updating commits and clearing history
     write working from top of stash stack 
 
 ### git stash drop 
-    discard the changes from top of stash stack
+    discard the changes from top of stash stackg
+
+
+## Local to Git step by step
+### mkdir
+    1. create folder on local machine (example: git-commands)
+    Create a new repository same name  (example: git-commands) on "https://github.com"
+### git init
+    initialized empty git repository  
+### project
+    create project folder or files(one or many)
+    example: 
+        1. index.html
+        2. style.css
+        3. script.js
+        4. readme.md
+### git status        
+    1. show untracked / new files in working directory
+    2. show modified / changed files in working directory   
+### git add .
+    1. add all files as it looks now to your next commit(stage)
+    2. add single file (example: git add index.html)
+### git commit -m "add initial files"
+    1. commit your files and folder
+    2. git status
+       check status once commited files.
+### all folder / files created and those changes add / commit on local machine / branch
+### same folder / project upload on Github / other repository
+### Create new repository on Github(https://github.com/new) / other repository (but make sure name should be same example: git-commands)
+
+### git remote add origin [url] (https://github.com/balramkamble/git-commands.git)
+    add a git URL as an alias
+### git remote -v
+    to verify remote
+    esample: https://github.com/balramkamble/git-commands.git
+### git branch
+    to check branch current branch
+    example: Master
+### git branch -M main
+    to rename branch "main"
+    example master to main
+### git branch
+    to check branch name once after rename branch
+    example: main
+### git push origin main
+    push changes in branch
+    example: main branch
