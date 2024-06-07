@@ -217,3 +217,38 @@ Rewriting branches, updating commits and clearing history
 ### git push origin main
     push changes in branch
     example: main branch
+
+
+## Git to Local to Git workflow
+
+### git clone [url] 
+    1.  retrieve an entire repository from a hosted location via URL
+    example: git clone https://github.com/balramkamble/git-commands.git
+### project
+    project folde add/modify/delete folder/files
+### git status        
+    1.  show untracked / new files in working directory
+    2.  show modified / changed files in working directory   
+### git add [file] 
+    add a file as it looks now to your next commit (stage)
+### git add .
+    add all files as it looks now to your next commit(stage)
+### git commit -m “[descriptive message]” 
+    commit your staged content as a new commit snapshot
+### git push [alias] [branch] 
+    1example: git push origin main
+    Transmit local branch commits to the remote repository branch 
+
+## Git Branches
+
+### Git branch
+    to check current branch
+### git branch -M main
+    to rename branch
+### git checkout [branch name] 
+    shift one branch to another branch
+### git checkout -b [new branch name]
+    to create new branch
+    eample: feature1
+### git branch -d [branch name]
+    eample: to delete branch
