@@ -180,7 +180,7 @@ Rewriting branches, updating commits and clearing history
 ### git init
     initialized empty git repository  
 ### project
-    create project folder or files(one or many)
+    create folder or files(one or many) inside project folder
     example: 
         1. index.html
         2. style.css
