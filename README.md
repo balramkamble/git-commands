@@ -222,6 +222,9 @@ ________________________________________________________________________________
 
 ## Git to Local to Git workflow
 
+### Github Repository
+    1. create new repository
+    2. already created repository
 ### git clone [url] 
     1.  retrieve an entire repository from a hosted location via URL
     example: git clone https://github.com/balramkamble/git-commands.git
@@ -253,3 +256,5 @@ ________________________________________________________________________________
     eample: feature1
 ### git branch -d [branch name]
     eample: to delete branch
+
+
