@@ -172,6 +172,7 @@ Rewriting branches, updating commits and clearing history
 ### git stash drop 
     discard the changes from top of stash stackg
 
+_______________________________________________________________________________________________________________________________
 
 ## Local to Git step by step
 ### mkdir
