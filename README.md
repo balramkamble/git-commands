@@ -218,10 +218,11 @@ ________________________________________________________________________________
 ### git push origin main
     push changes in branch
     example: main branch
-
-
+________________________________________________________________________________
 ## Git to Local to Git workflow
-
+### Github Repository
+    1. create new repository
+    2. already created repository
 ### git clone [url] 
     1.  retrieve an entire repository from a hosted location via URL
     example: git clone https://github.com/balramkamble/git-commands.git
@@ -239,9 +240,8 @@ ________________________________________________________________________________
 ### git push [alias] [branch] 
     1example: git push origin main
     Transmit local branch commits to the remote repository branch 
-
+_____________________________________________________________________________
 ## Git Branches
-
 ### Git branch
     to check current branch
 ### git branch -M main
@@ -253,3 +253,16 @@ ________________________________________________________________________________
     eample: feature1
 ### git branch -d [branch name]
     eample: to delete branch
+_____________________________________________________________________________
+
+## Merge Code 2 options
+## option 1
+### git diff [branch name]
+    to compare commits, branches, files and more
+### git merge [branch name]
+    to merge 2 branches
+## option 2 
+### create PR (pull request) from github
+_____________________________________________________________________________
+
+
